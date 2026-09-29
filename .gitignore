@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data & model outputs (regenerate via the scripts; don't bloat the repo)
+data/
+outputs/
+outputs_mnist/
+*.keras
+*.pkl
+*.h5
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
